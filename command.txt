@@ -1,0 +1,28 @@
+Install django in machine:-
+pip install django
+
+Install virtualenvwrapper:-
+pip install virtualenvwrapper-win
+
+start a virtual space called myapp:-
+mkvirtualenv myapp
+
+install django inside the vm:-
+pip install django
+
+Start the project named myproject(creates a myproject folder):-
+django-admin startproject myproject
+
+Deactivate the myapp enviorment:-
+deactivate
+
+activate myapp enviorment:-
+workon myapp
+
+Start app on myapp(Creates a myapp folder):-
+python manage.py startapp myapp
+
+Start server:-
+python manage.py runserver
+
+
