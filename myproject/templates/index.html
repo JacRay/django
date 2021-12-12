@@ -1,3 +1,20 @@
-<h1> 
-    Hello All. How are you?
-</h1>
+<!-- {{keyinside}} -->
+<!-- <h1> 
+    Welcome {{name}} <br> You are {{age}} years old
+    <br> You are {{nation}}
+</h1> -->
+
+<h1> input your text below </h1>
+<!-- action ="counter" sends the user to counter page
+the text entered is saved in word -->
+
+<!-- method can be get or post
+get method is default
+GET shows data in the url
+POST hides data from url -->
+<form method="POST" action="counter">
+    <!-- csrf_token is used to prevent cross site request forgery-->
+    {% csrf_token %}
+    <textarea name="word" rows="25" cols="100"></textarea><br>
+    <input type="submit">
+</form>
