@@ -27,4 +27,16 @@ python manage.py runserver
 
 can use python tools in html using {% %}
 Eg: {% if condition %}
+html
+{% elif %}
+html
+{% else %}
+html
 {% endif %}
+
+when new attributes are created
+python manage.py makemigrations
+python manage.py migrate
+
+To create super user:- 
+python manage.py createsuperuser
