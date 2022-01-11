@@ -40,3 +40,8 @@ python manage.py migrate
 
 To create super user:- 
 python manage.py createsuperuser
+
+temprory token:-
+python manage.py addstatictoken jacob
+
+https://blog.auberginesolutions.com/quick-start-two-factor-authentication-in-django-admin-panel/
